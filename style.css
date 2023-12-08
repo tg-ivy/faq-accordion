@@ -1,0 +1,37 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.backgroundtop {
+    height: 320px;
+    background-image: url("./assets/images/background-pattern-desktop.svg");
+}
+
+.backgroundbottom {
+    height: 600px;
+    background-color: #f9eeff;
+}
+
+.accordion-container {
+    display: flex;
+    justify-content: center;
+}
+
+.accordion {
+    position: absolute;
+    top: 200px;
+    width: 500px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.acc-header {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 41px;
+    font-size: x-large;
+    margin-bottom: 30px;
+    color: #2c1131;
+}
