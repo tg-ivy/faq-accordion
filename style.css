@@ -35,3 +35,43 @@ body {
     margin-bottom: 30px;
     color: #2c1131;
 }
+
+.row-container {
+    border-bottom: 1px solid #fbfbfb;
+    color: #2c1131;
+}
+
+.acc-subheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    font-size: small;
+    font-weight: 400;
+}
+
+
+.linebreaker {
+    width: 100%;
+}
+
+.button {
+    cursor: pointer;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #b0a4b2;
+}
+
+#para1, #para2, #para3, #para4 {
+    display: none;
+}
+
+
+@media (max-width: 700px) {
+    .accordion {
+        width: 300px;
+    }
+}
